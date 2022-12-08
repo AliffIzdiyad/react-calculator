@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css'
 
+
 const App = () => {
   const [result, setResult] = useState("");
 
@@ -24,7 +25,7 @@ const App = () => {
   }
   return (
     <>
-    <h1 className="header">React Js Calculator</h1>
+    <a href="#">React Js Calculator</a>
       <div className="container">
         <form>
           <input type="text" value={result}/>
